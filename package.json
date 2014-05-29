@@ -1,0 +1,35 @@
+{
+  "name": "turf-donuts",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Turfjs/turf-donuts.git"
+  },
+  "keywords": [
+    "turf",
+    "gis"
+  ],
+  "author": "Morgan Herlocker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf-donuts/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf-donuts",
+  "devDependencies": {
+    "glob": "~4.0.0",
+    "tape": "~2.13.1"
+  },
+  "dependencies": {
+    "turf-point": "~0.1.0",
+    "turf-featurecollection": "~0.1.0",
+    "turf-inside": "~0.1.1",
+    "lodash": "~2.4.1",
+    "turf-union": "0.0.0",
+    "turf-erase": "0.0.0"
+  }
+}
