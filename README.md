@@ -5,7 +5,7 @@ turf-donuts
 Takes a set of overlapping polygons and returns non overlapping donuts.
 
 ```js
-var t = require('donuts')
+var donuts = require('donuts')
 var js = require('fs')
 
 var polys = JSON.parse(fs.readFileSync('/path/to/polys.geojson'))
