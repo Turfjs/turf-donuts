@@ -4,13 +4,33 @@ turf-donuts
 
 Takes a set of overlapping polygons and returns non overlapping donuts.
 
+###Install
+
+```sh
+npm install turf-donuts
+```
+
+###Parameters
+
+|name|description|
+|---|---|
+|polygons|a FeatureCollection of overlapping polygons|
+
+###Usage
+
+```js
+donuts(polygons)
+```
+
+###Example
+
 ```js
 var donuts = require('donuts')
-var js = require('fs')
+var fs = require('fs')
 
 var polys = JSON.parse(fs.readFileSync('/path/to/polys.geojson'))
 
-var donutPolys = donuts(donutsIn, function(err, donuts)
+var donutPolys = donuts(donutsIn)
 
 console.log(donutPolys)
 ```
