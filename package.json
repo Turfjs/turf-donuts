@@ -21,15 +21,15 @@
   },
   "homepage": "https://github.com/Turfjs/turf-donuts",
   "devDependencies": {
-    "glob": "~4.0.0",
-    "tape": "~2.13.1"
+    "glob": "~4.0.4",
+    "tape": "~2.13.4"
   },
   "dependencies": {
-    "turf-point": "~0.1.0",
+    "turf-point": "~0.1.1",
     "turf-featurecollection": "~0.1.0",
-    "turf-inside": "~0.1.1",
+    "turf-inside": "~0.1.4",
     "lodash": "~2.4.1",
     "turf-union": "0.0.0",
-    "turf-erase": "0.0.0"
+    "turf-erase": "0.1.3"
   }
 }
