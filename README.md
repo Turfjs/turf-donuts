@@ -25,7 +25,7 @@ donuts(polygons)
 ###Example
 
 ```js
-var donuts = require('donuts')
+var donuts = require('turf-donuts')
 var fs = require('fs')
 
 var polys = JSON.parse(fs.readFileSync('/path/to/polys.geojson'))
