@@ -7,9 +7,7 @@ t.point = require('turf-point')
 t.inside = require('turf-inside')
 t.union = require('turf-union')
 
-module.exports = function(fc, done){
-  done = done || function () {};
-
+module.exports = function(fc){
   donuts = t.featurecollection([])
   _.each(fc.features, function(poly1){
     _.each(fc.features, function(poly2){
@@ -42,7 +40,6 @@ module.exports = function(fc, done){
     // push transformed poly1 to donuts
     donuts.features.push(poly1)
   })
-  done(null, donuts)
   return donuts;
 }
 
